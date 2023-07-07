@@ -1,0 +1,38 @@
+.row_1{
+    grid-column: span 6 ;
+    @media screen and (min-width : 858px) {
+        grid-column: span 3;
+    }
+}
+
+.dash_graph{
+    grid-column: span 12;
+
+    @media screen and (min-width :858px ) {
+        grid-column: span 8;
+    }
+}
+
+.dash_recent, .dash_progress, .dash_bar, .dash_geo{
+    grid-column: span 6;
+
+    @media screen and (min-width: 858px) {
+        grid-column: span 4;
+    }
+}
+
+// .dash_progress{
+//     grid-column: span 6;
+
+//     @media screen and (min-width: 858px) {
+//         grid-column: span 4;
+//     }
+// }
+
+// .dash_bar{
+//     grid-column: span 6;
+
+//     @media screen and (min-width: 858px) {
+//         grid-column: span 4;
+//     }
+// }
